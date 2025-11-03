@@ -28,7 +28,7 @@
 
 ---
 
-# Objetivo
+## Objetivo
 
 <p align="justify">El propósito de esta actividad es que desarrollen una aplicación Android que implemente un juego interactivo para dos personas, demostrando el uso de componentes de interfaz modernos y lógica de juego bien estructurada.
 </p>
@@ -40,7 +40,7 @@
 
 ---
 
-## 📸 Capturas de Pantalla
+## Capturas de Pantalla
 
 <table>
   <tr>
@@ -86,7 +86,7 @@
   </tr>
 </table>
 
-## ✨ Características Principales
+## Características Principales
 
 -   **🎮 Modo Multijugador Local:** La pantalla se divide en dos, con una mitad rotada 180 grados para una experiencia de juego cómoda cara a cara en un solo dispositivo.
 -   **⏱️ Partidas Cronometradas:** Cada jugador compite contra el reloj (3 minutos) para despejar su tablero. ¡El tiempo más rápido gana!
@@ -101,7 +101,7 @@
 
 ---
 
-## 🛠️ Stack Tecnológico
+## Stack Tecnológico
 
 Este proyecto fue construido utilizando un stack 100% moderno y nativo de Android:
 
@@ -115,7 +115,7 @@ Este proyecto fue construido utilizando un stack 100% moderno y nativo de Androi
     -   [Kotlinx.Serialization](https://github.com/Kotlin/kotlinx.serialization) para la serialización y deserialización de objetos `GameState` a formato JSON.
 -   **Gestión de Dependencias:** [Gradle con Kotlin DSL](https://docs.gradle.org/current/userguide/kotlin_dsl.html) (`build.gradle.kts`).
 
-## 📂 Estructura del Proyecto
+## Estructura del Proyecto
 
 El código está organizado siguiendo las mejores prácticas de arquitectura de software:
 
