@@ -1,19 +1,90 @@
-# Buscaminas Multijugador para Android
+<h1 align="center">Tarea 4: Desarrollo de un juego para 2 jugadores</h1>
+
+---
+
+## Índice
+- [Título](#tarea-4-desarrollo-de-un-juego-para-2-jugadores)
+- [Insignias](#insignias)
+- [Índice](#índice)
+- [Objetivo](#objetivo)
+- [Descripción del proyecto](#descripción-del-proyecto)
+- [Capturas de pantalla](#capturas-de-pantalla)
+- [Características principales](#características-principales)
+- [Stack tecnológico](#stack-tecnológico)
+- [Estructura del proyecto](#estructura-del-proyecto)
+- [Estado de la tarea](#estado-de-la-tarea)
+- [Características de la aplicación](#características-de-la-aplicación)
+- [Acceso al proyecto](#acceso-al-proyecto)
+- [Desarrolladores](#-desarrolladores)
+
+---
+
+# Insignias
 
 ![Kotlin](https://img.shields.io/badge/Kotlin-1.9.23-%237F52FF?style=for-the-badge&logo=kotlin)
 ![Jetpack Compose](https://img.shields.io/badge/Jetpack%20Compose-1.6.7-%234285F4?style=for-the-badge&logo=jetpackcompose)
 ![Android Studio](https://img.shields.io/badge/Android%20Studio-Otter-3DDC84?style=for-the-badge&logo=androidstudio)
 ![MVVM](https://img.shields.io/badge/Architecture-MVVM-%23FF6F61?style=for-the-badge)
 
-Una reimaginación moderna del clásico Buscaminas, desarrollado de forma nativa para Android. Este proyecto implementa una versión multijugador local en pantalla dividida, construido desde cero con las últimas tecnologías del ecosistema de Android, incluyendo Kotlin y Jetpack Compose.
+---
+
+# Objetivo
+
+<p align="justify">El propósito de esta actividad es que desarrollen una aplicación Android que implemente un juego interactivo para dos personas, demostrando el uso de componentes de interfaz modernos y lógica de juego bien estructurada.
+</p>
+
+---
+
+## Descripción del proyecto
+<p align="justify">Se realizó una reimaginación moderna del clásico Buscaminas, desarrollado de forma nativa para Android. Este proyecto implementa una versión multijugador local en pantalla dividida, construido con tecnologías del ecosistema de Android, incluyendo Kotlin y Jetpack Compose. Existe alternancia clara entre los dos jugadores con indicación visual de quién juega y existe un conteo de victorias, puntos o progreso según la naturaleza del juego.</p>
+
+---
 
 ## 📸 Capturas de Pantalla
 
-| Pantalla de Inicio | Pantalla de Juego |
-| :----------------: | :---------------: |
-| ![Pantalla de Inicio](ruta/a/tu/captura_inicio.png) | ![Pantalla de Juego](ruta/a/tu/captura_juego.png) |
+<table>
+  <tr>
+    <th>Inicio</th>
+    <th>Modo oscuro</th>
+    <th>Inicio de partida</th>
+    <th>Inicialización</th>
+  </tr>
+  <tr>
+    <th>
+      <img src="img/j0.jpeg" alt="Prueba" width="300" />
+    </th>
+    <th>
+      <img src="img/j1.jpeg" alt="Prueba" width="300" />
+    </th>
+    <th>
+      <img src="img/j2.jpeg" alt="Prueba" width="300" />
+    </th>
+    <th>
+      <img src="img/j3.jpeg" alt="Prueba" width="300" />
+    </th>
+  </tr>
+</table>
 
-*(Reemplaza las rutas de arriba con tus propias capturas de pantalla)*
+<p></p>
+
+<table>
+  <tr>
+    <th>Juego en curso</th>
+    <th>Fin de la partida</th>
+    <th>Opciones</th>
+  </tr>
+  <tr>
+    <th>
+      <img src="img/j4.jpeg" alt="Prueba" width="300" />
+    </th>
+    <th>
+      <img src="img/j5.jpeg" alt="Prueba" width="300" />
+    </th>
+    <th>
+      <img src="img/j6.jpeg" alt="Prueba" width="300" />
+    </th>
+  </tr>
+</table>
 
 ## ✨ Características Principales
 
@@ -27,6 +98,8 @@ Una reimaginación moderna del clásico Buscaminas, desarrollado de forma nativa
     -   Las preferencias se guardan y se recuerdan en inicios posteriores de la app usando Jetpack DataStore.
 -   **🎨 Interfaz Moderna y Tematizada:** La UI está construida enteramente con Jetpack Compose, siguiendo los principios de Material Design 3, con un tema militar personalizado.
 -   **Generación Aleatoria de Tableros:** Cada partida es única, con tableros de 12x10 y 15 minas generados aleatoriamente para cada jugador.
+
+---
 
 ## 🛠️ Stack Tecnológico
 
@@ -55,3 +128,31 @@ El código está organizado siguiendo las mejores prácticas de arquitectura de 
         -   **`GameViewModel.kt`**: El cerebro del juego. Contiene toda la lógica, el estado y las interacciones.
     -   **`MainActivity.kt`**: La única actividad de la app, que actúa como host para los Composables.
 
+---
+
+## Estado de la tarea
+- ✅ Tarea finalizada
+
+---
+
+## Características de la aplicación 
+- [x] Sistema de Turnos.
+- [x] Sistema de Puntuación.
+- [x] Validación de Movimientos.
+- [x] Detección de Victoria/Empate.
+- [x] Reinicio de Partida.
+- [x] Interfaz Intuitiva.
+
+---
+
+## Acceso al proyecto
+
+<p>Comando para clonar repositorio:</p>
+git clone https://github.com/Alfx17/Actividad4.git
+
+---
+
+## Desarrolladores
+
+- Flores Morales Aldahir Andrés
+- Pérez Marcelo Cristopher
